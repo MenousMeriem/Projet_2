@@ -1,0 +1,612 @@
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Italiana', serif ;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 70px;
+}
+
+@media screen and (max-width : 500px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: flex-end;
+        background-color: rgba(0, 0, 0, 0.438);
+        height: 40px;
+        
+    }
+}
+
+
+nav .Navbar {
+    margin: 10px ;
+    padding: 10px;
+}
+
+@media screen and (max-width : 500px){
+    nav .Navbar {
+        margin: 1px ;
+        padding: 1px;
+    }
+}
+
+nav .Navbar a{
+    text-decoration: none ;
+    color: #DCD7C9;
+    margin-right: 10px ;
+    padding: 10px;
+        
+}
+
+@media screen and (max-width : 500px){
+    nav .Navbar a{
+        text-decoration: none ;
+        color: #DCD7C9;
+        margin-right: 1px ;
+        padding: 5px;
+        font-size: 12px;
+            
+    }
+} 
+
+.Navbar a:hover{
+    background-color: #A27B5C;
+}
+
+header { 
+    background-image: url(header.jpg);
+    opacity: 0.75;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.icon {
+    width: 5%;
+    height: 5%;
+    margin: 10px ;
+    padding: 10px;
+    top: 50%;
+    right: 50px;
+}
+
+.logo_con a{
+    padding: 0px 20px;
+    top: 5px;
+    left: 20px;
+    position: absolute;
+}
+
+
+.Boutton {
+    padding: 15px 32px;
+    margin-right: 40px ;
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border : 4px solid #ffffff;
+    background-color: #3f4e4f81;
+    color: #FFFFFF;
+    font-family: 'Italiana', serif;
+    transition-duration: 0.4s;
+
+}
+
+@media screen and (max-width : 500px){
+    .Boutton {
+        padding: 10px 20px;
+        margin-right: 25px ;
+        position: absolute;
+        bottom: 15px;
+        right: 25px;
+        font-size: 15px;
+      
+    }
+
+}
+
+.Boutton:hover {
+    background-color:  #242c2c;
+}
+
+
+.Titre h1 {
+    position: absolute;
+    top: 48%;
+    left: 35%;
+    color: #DCD7C9;
+    font-family: 'Italiana', serif;
+    font-size: 60px;
+}
+
+.Titre h2 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: #DCD7C9;
+    font-family: 'Italiana', serif;
+    font-size: 45px;
+}
+
+@media screen and (max-width : 500px){
+    .Titre h1{
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        color: #DCD7C9;
+        font-family: 'Italiana', serif;
+        font-size: 35px; }
+    }
+
+@media screen and (max-width : 500px){
+    .Titre h2 {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        color: #DCD7C9;
+        font-family: 'Italiana', serif;
+        font-size: 25px; }
+    }
+    
+
+.Général{
+ background-color: #DCD7C9;
+ 
+}
+
+
+.Text{
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+    color: #A27B5C;
+    padding-top: 3%;
+    text-align: center;  
+}
+
+@media screen and (max-width : 500px){
+    .Text{
+        font-size: 15px;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width : 700px){
+    .container{
+        display: flex;
+        flex-wrap:  wrap;
+    }
+
+}
+
+.cards{
+    width: 300px;
+    margin: 10px;
+    background-color: #3F4E4F;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width : 700px){
+    .cards{
+        width: 180px;
+        height: 320px;
+    }
+}
+
+.card-img img{
+
+    border-radius: 15px;
+	height: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border : 4px solid #A27B5C;
+}
+
+
+.card-body h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+.card-body p{
+    letter-spacing: 2px;
+    line-height: 2;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 80%;
+}
+
+@media screen and (max-width : 700px){
+    .card-body h2, .card-body p{
+        font-size: 60%;
+
+    }   
+}
+
+.Bout{
+    padding: 15px 32px;
+    position: absolute; 
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border : 4px solid #ffffff;
+    background-color: #3f4e4f81;
+    color: #FFFFFF;
+    font-family: 'Italiana', serif;
+    transition-duration: 0.4s;  
+    right: 45%;
+    top: 250%;
+}
+
+@media screen and (min-width : 700px ){
+    .Bout{
+        padding: 10px 25px;
+        right: 42%;
+        top: 280%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 700px ){
+    .Bout{
+        padding: 10px 25px;
+        right: 42%;
+        top: 270%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 600px){
+    .Bout{
+        padding: 10px 25px;
+        right: 42%;
+        top: 340%;
+    }
+}
+@media screen and (max-width : 500px){
+    .Bout{
+        padding: 10px 25px;
+        right: 42%;
+        top: 320%;
+    }
+}
+@media screen and (max-width : 400px){
+    .Bout{
+        padding: 10px 25px;
+        right: 30%;
+        top: 450%;
+    }
+}
+
+.Bout:hover{
+    background-color: #242c2c;
+}
+
+.a_propos{
+    background-image: url(Dec.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+}
+
+.R h2{
+    position: absolute;
+    top: 20%;
+    right: 14.5%;
+    color: #ffffff;
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+}
+@media screen and (max-width : 800px){
+    .R h2{
+        top: 10%;
+        right: 10%;
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width : 600px){
+    .R h2{
+        top: 10%;
+        right: 6%;
+        font-size: 18px;
+    }
+    
+}
+.R p{
+    position: absolute;
+    top: 35%;
+    right: 9%;
+    color: #ffffff;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: center;
+}
+
+@media screen and (max-width : 800px){
+    .R p{
+       
+        top: 35%;
+        right: 5%;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 2;
+        text-align: center;
+    }
+   
+
+}
+
+@media screen and (max-width : 600px){
+    .R p{
+        top: 35%;
+        right: 0%;
+        font-size: 8px;
+        letter-spacing: 2px;
+        line-height: 6;
+        text-align: center;
+    }
+   
+
+}
+
+
+
+.P_envoyer{
+    padding: 15px 32px;
+    position: absolute; 
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border : 4px solid #ffffff;
+    background-color: #dcd7c99f;
+    font-family: 'Italiana', serif;
+    transition-duration: 0.4s;
+    color: #ffffff; 
+    right: 17%;
+    top: 400px;
+    
+  }
+
+@media screen and (max-width : 800px){
+    .P_envoyer{
+     padding: 5px 20px;
+     font-size: 12px;
+     text-align: center;
+     border : 2px solid #ffffff;
+     color: #ffffff; 
+     right: 10%;
+     top: 370px; }  
+   }
+
+@media screen and (max-width : 600px){
+    .P_envoyer{
+     padding: 8px 25px;
+     font-size: 12px;
+     text-align: center;
+     border : 2px solid #ffffff;
+     color: #ffffff; 
+     right: 10%;
+     top: 370px; }  
+   }
+
+.P_envoyer:hover{
+    background-color: #242c2c;
+}
+
+
+
+.contacter {
+    background-color: #3f4e4fe8;
+    
+}
+
+.L{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.contacter h1 {
+    color: #DCD7C9;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 4;
+}
+
+@media screen and (max-width : 800px){
+    .contacter h1 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 4;
+    }
+    }
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 4px solid #ccc;
+    font-family: 'Italiana', serif;
+    background-color: #A27B5C;
+    color: #ffffff;
+  }
+
+
+.textarea {
+    width: 40%;
+    height: 150px;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    background-color: #A27B5C;
+    font-size: 25px;  
+    color: #242c2c; 
+  }
+
+
+  .B_envoyer{
+    padding: 15px 32px;
+    position: absolute; 
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border : 4px solid #ffffff;
+    background-color: #dcd7c99f;
+    font-family: 'Italiana', serif;
+    transition-duration: 0.4s;
+    color: #ffffff; 
+    right: 45%;
+  }
+
+  @media screen and (max-width : 800px){
+  .B_envoyer{
+    padding: 10px 20px;
+    position: absolute; 
+    font-size: 10px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border : 4px solid #ffffff;
+    background-color: #dcd7c99f;
+    font-family: 'Italiana', serif;
+    transition-duration: 0.4s;
+    color: #ffffff; 
+    right: 45%;   
+  }
+  }
+
+.B_envoyer:hover{
+    background-color: #242c2c;
+}
+
+  .Général_a{
+    background-color: #DCD7C9;
+  }
+
+  .con{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+@media screen and (max-width : 700px){
+    .con{
+        display: flex;
+        flex-wrap:  wrap;
+    }
+
+}
+.cards_a{
+    width: 280px;
+    margin: 10px;
+    background-color: #3F4E4F;
+    border-radius: 15px;
+}
+
+@media screen and (max-width : 700px){
+    .cards_a{
+        width: 240px;
+        margin: 5px;
+        background-color: #3F4E4F;
+        border-radius: 10px;
+    }
+
+}
+
+.card_img img{
+
+    border-radius: 15px;
+	height: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    border : 4px solid #A27B5C;
+}
+
+.card_body h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+.card_body p{
+    letter-spacing: 2px;
+    line-height: 2;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 80%;
+}
+
+.contenu_footer{
+    background-color: #3F4E4F;
+}
+.con_footer{
+    padding: 50px 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width : 700px){
+    .con_footer{
+        padding: 30px 0 70px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 50%;
+    }
+}
+
+.partie_une{
+    
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 1px;
+    color: #DCD7C9;
+    line-height: 1.8;
+    
+}
+
